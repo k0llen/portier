@@ -635,6 +635,7 @@ body{
 .work__card-pic{
     border-radius: 8px;
     width: 100%;
+    object-fit: cover ;
 }
 
 .work__card__link-icon{
@@ -690,6 +691,7 @@ body{
     max-width: 600px;
     max-height: 600px;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 /* Direction styles end */
@@ -749,6 +751,8 @@ body{
 
 .about__card-info{
     margin-left: 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -762,7 +766,7 @@ body{
 .about__card-desc{
     margin-right: 20px;
     margin-bottom: 24px;
-    width:100%;
+    width: 100%;
     line-height: 24px;
 }
 
@@ -856,6 +860,7 @@ body{
     max-width: 600px;
     border-radius: 8px;
     margin-right: 129px;
+    object-fit: cover;
 }
 
 .goal__card{
@@ -1147,6 +1152,10 @@ body{
         margin-bottom: 0;
     }
 
+    .direct__card{
+        margin-bottom: 200px;
+    }
+
     .goal{
         margin-bottom: 200px;
     }
@@ -1389,7 +1398,9 @@ body{
     .header{
         margin-bottom: 90px;
     }
-
+    .direct__card{
+        margin-bottom: 90px;
+    }
     .header__nav{
         padding: 50px;
     }
@@ -1452,8 +1463,7 @@ body{
     }
 
     .direct__pic{
-        max-width: 350px;
-        width: 350px;
+        max-width: 100%;
         height: 400px;
     }
 
@@ -1503,19 +1513,16 @@ body{
         margin-bottom: 90px;
     }
 
-    .goal__wrapper{
-        display: block;
-    }
 
     .goal__pic{
-        max-width: 350px;
+        max-width: 100%;
         max-height: 400px;
         margin-right: 0;
         margin-bottom: 60px;
     }
 
     .goal__card{
-        max-width: 350px;
+        max-width: 100%;
     }
 
     .goal__card-title{
@@ -1584,14 +1591,13 @@ body{
 @media screen and (max-width:394px){
 
     .direct__pic{
-        max-width: 312px;
-        max-height: 350px;
+        max-width: 350px;
+        max-height: 400px;
         width: 100%;
-        height: 100%;
     }
     .goal__pic{
-        max-width: 312px;
-        max-height: 350px;
+        max-width: 350px;
+        max-height: 400px;
     }
 
     .about__card{
