@@ -593,6 +593,7 @@ body{
 .work__card-pic{
     border-radius: 8px;
     width: 100%;
+    object-fit: cover;
 }
 
 .work__card__link-icon{
