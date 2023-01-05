@@ -1127,11 +1127,20 @@ body{
     }
 
     .intro{
-        margin-bottom: 145px;
+        margin-bottom: 90px;
     }
 
     .intro__wrapper{
         display: block;
+    }
+
+    .intro-title{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .intro__card-pic{
+        width: 100%;
+        margin: 0 auto 178px;
     }
 
     .intro-desc{
@@ -1178,9 +1187,53 @@ body{
     }
 }
 
+@media screen and (max-width:750px) {
+    .how__card__wrapper{
+        flex-direction: column;
+    }
 
+    .how__card-get{
+        margin-bottom: 74px;
+    }
+}
 
+@media screen and (max-width:610px) {
+    .intro{
+        margin-bottom: 90px;
+    }
 
+    .makes__cards{
+        grid-template-columns: 1fr;
+    }
+
+    .makes__card{
+        max-width: 500px;
+    }
+
+    .text__cards{
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+    }
+
+    .companies__wrapper{
+        flex-direction: column;
+    }
+
+    .companies__info-subtitle{
+        margin-bottom: 48px;
+    }
+
+    .companies__info-desc{
+        margin-bottom: 48px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+
+    .intro-title{
+        top: 380px;
+    }
+}
 
 
 
