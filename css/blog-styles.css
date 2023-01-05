@@ -541,6 +541,7 @@ body{
 
 .intro__field{
     max-width: 720px;
+    width: 100%;
     max-height: 52px;
     align-items: flex-start;
 }
@@ -554,7 +555,8 @@ body{
     background: #12121C;
     border: 1px solid #222233;
     border-radius: 8px;
-    width: 567px;
+    max-width: 567px;
+    width: 100%;
     margin-right: 8px;
     font-size: 14px;
     max-height: 53px;
