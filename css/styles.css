@@ -762,8 +762,7 @@ body{
 .about__card-desc{
     margin-right: 20px;
     margin-bottom: 24px;
-    width: 330px;
-    max-height: 96px;
+    width:100%;
     line-height: 24px;
 }
 
