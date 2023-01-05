@@ -769,12 +769,10 @@ body{
 
 .about__card-name{
     margin-bottom: 4px;
-    margin-right: 105px;
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
     color: #ffffff;
-    max-height: 32px;
 }
 
 .about__card-region{
