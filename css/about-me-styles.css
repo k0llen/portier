@@ -1229,9 +1229,58 @@ body{
 }
 
 @media screen and (max-width: 550px) {
+    .header{
+        margin-bottom: 90px;
+    }
 
     .intro-title{
         top: 380px;
+    }
+
+    .how{
+        margin-bottom: 45px;
+    }
+    .makes{
+        margin-bottom: 90px;
+    }
+    .text{
+        margin-bottom: 90px;
+    }
+
+    .companies{
+        margin-bottom: 90px;
+    }
+
+    .footer__logo{
+        padding-top: 45px;
+    }
+
+    .footer__nav-items{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .footer__copy{
+        flex-direction: column;
+    }
+
+    .footer__copy-desc{
+        margin-bottom: 24px;
+    }
+
+    .footer__social{
+        margin:0;
+    }
+
+    .footer__socials-link{
+        margin-left: 16px;
+    }
+
+    .footer__socials-link:first-child{
+        margin-left: 0;
+    }
+
+    .footer{
+        padding-bottom: 45px;
     }
 }
 
