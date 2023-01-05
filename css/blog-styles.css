@@ -628,7 +628,10 @@ body{
     background: url(/blog_img/svg/articles-card-arrow.svg) no-repeat right center;
 }
 
-
+.articles__card-pic{
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
 
 
 
