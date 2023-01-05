@@ -933,8 +933,8 @@ body{
     }
 
     .intro__card{
-        flex-wrap: wrap;
         flex-direction: column;
+        align-items: center;
     }
 
     .intro-button{
@@ -962,6 +962,7 @@ body{
     .work__card__link-icon{
         right: 15px;
         bottom: 15px;
+        padding: 17.5px 17.5px;
     }
 
     .how__card-title{
@@ -986,7 +987,9 @@ body{
 
 @media screen and (max-width:501px) {
     .work__card-desc{
-        padding: 10px 20px  ;
+        padding: 10px 15px;
+        font-size: 12px;
+        line-height: 22px;
     }
     
     .work__card{
@@ -1001,11 +1004,13 @@ body{
 @media screen and (max-width:450px) {
     .wrapper{
         max-width: 450px;
-        padding: 0 32px;
+        padding: 0 15px;
     }
 
     .intro-button{
-        padding: 13px 32.8%;
+        padding: 13px 20%;
+        width: 100%;
+        text-align: center;
     }
 
     .intro-title{
@@ -1047,15 +1052,6 @@ body{
     }
 
 }
-
-
-
-
-
-
-
-
-
 
 
 /* Media styles end */
