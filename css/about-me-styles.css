@@ -531,6 +531,7 @@ body{
     color: #000;
     opacity: 0.4;
     margin-bottom: 73px;
+    object-fit: cover ;
 }
 
 .intro__title-grey{
